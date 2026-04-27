@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.051" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.334" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\test-classes;C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\classes;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\test-classes;C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\classes;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ryhmn\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryhmn\AppData\Local\Temp\surefire5239887653562758894\surefirebooter-20260427204933991_3.jar C:\Users\ryhmn\AppData\Local\Temp\surefire5239887653562758894 2026-04-27T20-49-33_854-jvmRun1 surefire-20260427204933991_1tmp surefire_0-20260427204933991_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryhmn\AppData\Local\Temp\surefire17921519221690691434\surefirebooter-20260427212534239_3.jar C:\Users\ryhmn\AppData\Local\Temp\surefire17921519221690691434 2026-04-27T21-25-34_112-jvmRun1 surefire-20260427212534239_1tmp surefire_0-20260427212534239_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\test-classes;C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\classes;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\test-classes;C:\Users\ryhmn\OneDrive\Documents\GitHub\Tugas-Teknik-Pemrograman\W9-TDD-p2p\p2p-lending\target\classes;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\ryhmn\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\ryhmn\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ryhmn\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ryhmn"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryhmn\AppData\Local\Temp\surefire5239887653562758894\surefirebooter-20260427204933991_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryhmn\AppData\Local\Temp\surefire17921519221690691434\surefirebooter-20260427212534239_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8"/>
@@ -58,8 +58,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.023"/>
-  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.001"/>
-  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.001"/>
-  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.001"/>
+  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.303">
+    <system-out><![CDATA[21:25:34.937 [main] INFO  com.p2p.service.LoanService - Proses pengajuan loan untuk borrower. Amount: 1000
+21:25:34.941 [main] WARN  com.p2p.service.LoanService - Credit score rendah (599). Loan REJECTED.
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.001">
+    <system-out><![CDATA[21:25:34.954 [main] INFO  com.p2p.service.LoanService - Proses pengajuan loan untuk borrower. Amount: 1000
+21:25:34.955 [main] INFO  com.p2p.service.LoanService - Credit score mencukupi (700). Loan APPROVED.
+]]></system-out>
+  </testcase>
+  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.002">
+    <system-out><![CDATA[21:25:34.957 [main] INFO  com.p2p.service.LoanService - Proses pengajuan loan untuk borrower. Amount: 0
+21:25:34.958 [main] ERROR com.p2p.service.LoanService - Gagal: Jumlah pinjaman tidak valid.
+]]></system-out>
+  </testcase>
+  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.003">
+    <system-out><![CDATA[21:25:34.961 [main] INFO  com.p2p.service.LoanService - Proses pengajuan loan untuk borrower. Amount: 1000
+21:25:34.961 [main] ERROR com.p2p.service.LoanService - Gagal: Borrower belum terverifikasi.
+]]></system-out>
+  </testcase>
 </testsuite>
